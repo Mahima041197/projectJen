@@ -28,6 +28,7 @@ public class login {
 		 Assert.assertEquals(actualtitle,expectedtitle);
 		 System.out.println("successfully checked");
 		 
+		 
 		 WebElement username = driver.findElement(By.xpath("//input[@type='email']"));
 		 username.clear();
 		 username.sendKeys("mahimasachdeva97@gmail.com");
