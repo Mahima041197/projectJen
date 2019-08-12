@@ -27,7 +27,7 @@ public class login {
 		 String actualtitle = driver.getTitle();
 		 Assert.assertEquals(actualtitle,expectedtitle);
 		 System.out.println("successfully checked");
-		 
+		 System.out.println("INSIDE THE CODE");
 		 
 		 WebElement username = driver.findElement(By.xpath("//input[@type='email']"));
 		 username.clear();
